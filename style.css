@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #002577;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    padding: 6px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .company_name span {
+
+    font-size: 15px;
+}
+
+header .contact span {
+    color: #6de5ec;
+}
+
+header .contact h2 {
+    font-weight: normal;
+}
+
+/* Banner Section Start*/
+main {
+    width: 100%;
+    height: 500px;
+    background:  url(../img/indus1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    padding: 100px;
+}
+main form input:hover{
+    background-color: #84f6f6;
+}
+main form textarea:hover{
+    background-color: #84f6f6;
+}
+
+main .indus h1 {
+    font-weight: normal;
+    font-size: 45px;
+}
+
+main .indus span {
+    display: block;
+    font-size: 70px;
+}
+
+main form {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #002577;
+}
+
+main h2,input {
+    height: 45px;
+    text-align: center;
+    padding: 5px;
+}
+
+main form textarea {
+    text-align: center;
+    font-weight: normal;
+}
+
+/*Banner section End*/
+
+/*Feature section Start*/
+.feature {
+    color: #002577;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+.feature div{
+    width: 30%;
+    height: 400px;
+}
+.feature div img {
+    width: 300px;
+    height: 200px;
+}
+
+.feature div h2 {
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.feature div p {
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/*Feature section End*/
+
+/*About Us Section is Start*/
+.about {
+   
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 60px 300px;
+    background-color: #002577;
+}
+
+.about h2 {
+    font-size: 33px;
+    margin-bottom: 7px;
+}
+
+.about p {
+    justify-content: justify;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.about button {
+    border: 2px solid #fff;
+    margin-top: 20px;
+    font-weight: bold;
+    background: #002577;
+    color: #fff;
+    padding: 10px 120px;
+    border-radius: 6px;
+
+}
+.about .but:hover{background-color: rgb(85, 123, 123)}
+/*About Us Section is End*/
+
+/*Our Service Section Start*/
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.service .upper, .service .lower{
+    display: flex;
+    align-items: center;  
+}
+.service .image, .service .content{
+    width: 50%;
+}
+.service .image img{
+    width: 505px;    
+}
+.service .upper .content p, h3{
+    padding: 0px 10px;
+    text-align: justify;
+}
+.service .lower .content p,h3{
+    padding: 0px 10px;
+    text-align: justify;
+}
+/*Our Service Section End*/
+
+/*Footer Section Start*/
+footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+    background-color: #002577;
+    text-align: center;
+    color: #fff;
+    
+}
+footer h5{
+    padding: 11px 0px;
+}
+/*Footer Section End*/
